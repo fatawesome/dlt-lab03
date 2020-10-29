@@ -4,6 +4,8 @@ def task1(x, y, a):
     y2 = s * (x - x2) - y
     return x2, y2
 
+print(task1(2, 3, 0))
+
 def task2_helper(a, b, p):
     for x in range(p):
         for y in range(p):
